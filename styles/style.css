@@ -255,6 +255,92 @@ font-weight: 400;
 
 }
 
+/* grids related code  */
+#gridss{
+     background-color: rgba(35, 14, 61, 1);
+    padding: 120px;
+}
+.grid-title{
+    text-align: center;
+    font-size: 3rem;
+    color:#fff;
+}
+.grid-container{
+    
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3);
+   
+    gap: 30px;
+
+}
+.grd1{
+    grid-column: span 2;
+    grid-row:span 4;
+    padding:100px 40px;
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 40px;
+    transition: transform 0.3s ease;
+}
+.grd1:hover{
+    transform: scale(1.1);
+}
+.grd2{
+    border-radius: 40px;
+    grid-column: span 4;
+    grid-row: span 2;
+    padding: 40px;
+    background-color: rgba(53, 17, 101, 0.4);
+    transition: transform 0.3s ease;
+}
+.grd2:hover{
+    transform: scale(1.1);
+}
+.grd3{
+    border-radius: 40px;
+    grid-column: span 4;
+    grid-row: span 2;
+    padding: 40px;
+    background-color: rgba(53, 17, 101, 0.4);
+    transition: transform 0.3s ease;
+}
+.grd3:hover{
+    transform: scale(1.1);
+}
+.grd4{
+    border-radius: 40px;
+    grid-column: span 4;
+    grid-row: span 2;
+    padding: 40px;
+    background-color: rgba(53, 17, 101, 0.4);
+    transition: transform 0.3s ease;
+}
+.grd4:hover{
+    transform: scale(1.1);
+}
+.grd5{
+    border-radius: 40px;
+    grid-column: span 2;
+    grid-row: span 2;
+    padding: 40px;
+    background-color: rgba(53, 17, 101, 0.4);
+    transition: transform 0.3s ease;
+}
+.grd5:hover{
+    transform: scale(1.1);
+}
+
+
+.grids-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color:#fff;
+}
+.grids-details{
+    font-size: 1rem;
+    font-weight: 400;
+    color:#ffffffb9;
+}
 
 
 
@@ -270,8 +356,39 @@ font-weight: 400;
         background-repeat: no-repeat;
         margin-top: 20px;
     }
-
-
+    .about-title{
+        font-size: 2rem;
+    }
+    .about-rating{
+        grid-template-columns:repeat(2, 1fr)
+    }
+    #gridss {
+    
+    padding: 40px;
 }
+.grid-title{
+    font-size: 1.7rem;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    
+    gap: 15px;
+}
+.grd1 {
+    grid-column: span 2;
+    grid-row: span 4;
+    padding: 24px;
+}
+.grids-title{
+    font-size: 1rem;
+    
     
 }
+.grids-details{
+    font-size: 1rem;
+    font-weight: 400;
+    color:#ffffffb9;
+}
+}
+    
