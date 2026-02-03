@@ -200,6 +200,61 @@ header{
     font-weight: 400;
     margin-bottom: 20px;
 }
+/* about code  */
+.about-container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.about-content{
+    text-align: center;
+    
+}
+.about-title{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: #fff;
+}
+.about-details {
+    font-size: 1rem;
+    font-weight: 400;
+    max-width: 700px;
+    margin: 16px auto;
+    color: #ffffffb8;
+    margin-bottom: 30px;
+}
+.det-end{
+     margin-bottom: 80px;
+     color: #ffffffb8;
+     font-size: 1rem;
+     font-weight: 400;
+}
+.about-rating{
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.rate-card{
+text-align: center;
+transition: transform 0.3s ease;
+}
+.rate-card:hover{
+    transform: scale(1.1);
+}
+.rates{
+color:#00FF88;
+font-size: 3rem;
+font-weight: black;
+margin-top: 0;
+margin-bottom: 16px;
+}
+.rater-details{
+color:#fff;
+font-size: 1rem;
+font-weight: 400;
+
+}
+
 
 
 
@@ -215,7 +270,7 @@ header{
         background-repeat: no-repeat;
         margin-top: 20px;
     }
-    
+
 
 }
     
