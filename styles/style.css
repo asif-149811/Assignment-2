@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+
+.font-style {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+body{
+    background-color: rgba(26, 11, 46, 1);
+}
+/* shared code  */
+
+/* nav btns  */
+    .btns{
+        width: 135px;
+        height: 44px;
+        font-size: 1rem;
+        font-weight: 600;
+        padding: 12px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        border: none;
+        border-radius: 10000px;
+        cursor: pointer;
+        color:#fff;
+        background: linear-gradient(to right, #F7E93F, #FB09B4, #9100F8) ;
+        transition: transform 0.3s ease;
+        
+    }
+    .btns:hover{
+        transform: scale(1.1);
+    }
+    
+    /* banner btns  */
+    .btns2{
+         width: 200px;
+        height: 44px;
+        font-size: 1rem;
+        font-weight: 600;
+        padding: 12px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        border: none;
+        border-radius: 10000px;
+        cursor: pointer;
+        color:#fff;
+        background: linear-gradient(to right, #F7E93F, #FB09B4, #9100F8) ;
+        transition: transform 0.3s ease;
+        
+    }
+     .btns2:hover{
+        transform: scale(1.1);
+    }
+
+      .btns3{
+         width: 145px;
+        height: 44px;
+        font-size: 1rem;
+        font-weight: 600;
+        padding: 12px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        border: 1px solid #00FF88;
+        border-radius: 10000px;
+        cursor: pointer;
+        color:#00FF88;
+        background: #ffffff00 ;
+        transition: transform 0.3s ease;
+        margin-left: 8px;
+        
+    }
+     .btns3:hover{
+        transform: scale(1.1);   
+    }
+    .gradient{
+        background: -webkit-linear-gradient( #F7E93F, #FB09B4, #9100F8);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+
+    
+/* head code  */
+#logo{
+    font-size: 2rem;
+}
+header{
+    justify-content: space-between;
+    display: flex;
+    color:white;
+    text-align: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.navbar,.nav-item{
+    display: flex;
+}
+.nav-item{
+    list-style: none;
+}
+.nav-list{
+    transition: transform 0.3s ease;
+}
+.nav-list:hover{
+    transform: scale(1.1);
+}
+.nav-link{
+    text-decoration: none;
+    color:#Fff;
+    margin-right:34px;
+    font-size: 1rem;
+    font-weight: 500;
+  
+}
+
+/* banner reletade code  */
+#banner {
+    display: grid;
+    width: 100%;
+    height: auto;
+    background-image: url(../assets/hero-bg.png);
+    background-size: cover;
+    
+
+}
+.badge{
+    z-index: 10;
+    box-shadow: 0px 3px 27px 0 #00FF88;
+    width: 75px;
+    height: 30px;
+    background-color:#00FF88;
+    border-radius: 10000px;
+    padding:8px 10px;
+    font-size: 1.12rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: 600;
+    color:rgba(26, 11, 46, 1);
+    margin-top: -300px;
+    margin-right: -230px;
+    transition:transform 0.3s ease;
+}
+.badge:hover{
+    transform: scale(1.1);
+}
+
+.banner-content{
+    
+    padding: 117px;
+    background-repeat: no-repeat;
+    margin-top: 150px;
+    
+    /* position:relative; */
+    place-items: center;
+    margin-bottom: 0px;
+    display: grid;
+    place-items: center;
+    align-items: center;
+}
+
+ #img-container{
+    position: absolute;
+
+ }
+#microphone{
+    position: absolute;
+    top:25%;
+    left: 35%;
+}
+#banner-text{
+   /* justify-content: center;
+   align-items: center; */
+   
+   text-align: center;
+   max-width: 550px;
+    margin: 80px auto;
+
+}
+.banner-title{
+    font-size: 3.75rem;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 8px;
+    color:#fff;
+
+}
+.banner-details{
+    color:#ffffffc6;
+    font-size:1rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+
+
+
+/* responsive  */
+@media screen and (max-width:576px) {
+    .nav-list, .btns{
+        display: none;
+    }
+    
+    .navbar{
+        background-image: url(../assets/hamburger-menu.png);
+        background-repeat: no-repeat;
+        margin-top: 20px;
+    }
+    
+
+}
+    
+}
